@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "public": true,
+  "env": [
+    "GOOGLE_API_KEY",
+    "SUNO_API_KEY",
+    "SUNO_API_URL",
+    "SUNO_WEBHOOK_SECRET",
+    "ELEVENLABS_API_KEY",
+    "ELEVENLABS_VOICE_ID",
+    "MONGODB_URI",
+    "JWT_SECRET",
+    "VERCEL_ENV"
+  ]
+}
