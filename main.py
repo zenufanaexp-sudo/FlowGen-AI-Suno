@@ -14,11 +14,11 @@ app = Flask(__name__)
 CORS(app)
 
 # Configurar APIs
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 SUNO_API_KEY = os.getenv('SUNO_API_KEY')
 SUNO_API_URL = os.getenv('SUNO_API_URL', 'https://api.suno.ai')
 
-genai.configure(api_key=GOOGLE_API_KEY)
+genai.configure(api_key=GEMINI_API_KEY)
 
 @app.route('/')
 def index():
